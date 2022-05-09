@@ -1,0 +1,2 @@
+# PATH-NAVIGATION
+The PATH NAVIGATOR is a precise and flexible platform which enables your users to explore the world's streets. We are designing new maps specifically for navigation that highlight traffic conditions and helpful landmarks. The calculations are based on the user's current location and compare it to the current route that the user's traversing to provide critical information at any given moment. You control the entire experience, from the time your user chooses a destination to when they arrive
