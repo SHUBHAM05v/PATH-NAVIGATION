@@ -1,0 +1,95 @@
+<!-- Made By P Sashwat and Shubham Singh -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Api -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+    type="text/css" />
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="shortcut icon" href="media/map-icon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- title -->
+
+  <title>Project by Sashwat & Shubham</title>
+
+</head>
+
+
+<body>
+  <!-- settings sections -->
+
+  <div class="settings" id="settingsDiv">
+    <div class="setting">
+      <i class="fas fa-times" onclick="settings(false)"></i>
+      <div class="split">
+        <span>Splited</span>
+        <input type="radio" name="radio" id="" class="radio" />
+        <img src="media/design1.svg" alt="" />
+      </div>
+      <div class="connect">
+        <span>Connected</span>
+        <input type="radio" name="radio" id="" class="radio" />
+        <img src="media/design2.svg" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <!-- map section -->
+  <div class="map" id="map"></div>
+  <div class="date" id="date">
+    <h6 class="week"></h6>
+    <h1 class="day"></h1>
+  </div>
+  <div class="details1" id="split">
+    <div class="speed-container">
+      <h1 class="speed"></h1>
+      <h6>KM/h</h6>
+    </div>
+    <div class="vr"></div>
+    <div class="weather-container">
+      <h1 class="weather"></h1>
+      <h6>°C</h6>
+    </div>
+  </div>
+  <div class="details2" id="connect">
+    <div class="speed-container">
+      <h1 class="speed"></h1>
+      <h6>KM/h</h6>
+    </div>
+    <div class="vr"></div>
+    <div class="weather-container">
+      <h1 class="weather"></h1>
+      <h6>°C</h6>
+    </div>
+    <div class="vr"></div>
+    <div class="date-connect">
+      <h6 class="week"></h6>
+      <h1 class="day"></h1>
+    </div>
+  </div>
+  <i class="fas fa-cog" id="settings" onclick="settings(true)"></i>
+
+
+  <!-- Scripts  -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+  <script
+    src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+  <script src="app.js"></script>
+  <script src="src/index.js"></script>
+
+</body>
+</html>
+
+<!-- Made By P Sashwat and Shubham Singh -->
